@@ -13,7 +13,11 @@ const connect = () => {
 
   conn.on("connect", () => {
     console.log("Successfully connected to the game server");
-    conn.write("Name: TJS");
+    conn.write("Name: ARI");
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 50);
+
   });
 
   // interpret incoming data as text
