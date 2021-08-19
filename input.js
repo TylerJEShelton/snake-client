@@ -16,6 +16,21 @@ const handleUserInput = (key) => {
   if (key === 'd') {
     connection.write("Move: right");
   }
+  if (key === '1') {
+    connection.write("Say: Hello!");
+  }
+  if (key === '2') {
+    connection.write("Say: Goodbye!");
+  }
+  if (key === '3') {
+    connection.write("Say: Did you die again?");
+  }
+  if (key === '4') {
+    connection.write("Say: Nice score!");
+  }
+  if (key === '5') {
+    connection.write("Say: Maybe next time!");
+  }
 };
 
 const setupInput = (conn) => {
