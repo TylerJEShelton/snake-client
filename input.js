@@ -2,6 +2,7 @@ const { MOVE_UP_KEY, MOVE_LEFT_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, MESSAGES } = 
 
 let connection;
 
+// function handles the user inputted keys for movement and messages
 const handleUserInput = (key) => {
   if (key === '\u0003') {
     process.exit();
@@ -21,7 +22,6 @@ const handleUserInput = (key) => {
   if (MESSAGES[key]) {
     connection.write(MESSAGES[key]);
   }
-
 };
 
 const setupInput = (conn) => {
