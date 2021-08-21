@@ -10,7 +10,7 @@ const DEATH_MESSAGE2 = "you ded cuz you idled\n";
 const DEATH_MESSAGE3 = "you hit another snake, so you ded.\n";
 const MESSAGES = {
   "1": "Say: Hello!",
-  "2": "Say: Goodbye!",
+  "2": "Say: Oh no!",
   "3": "Say: Did you die again?",
   "4": "Say: Nice score!",
   "5": "Say: Maybe next time!"
